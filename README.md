@@ -27,7 +27,7 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 ### Requirements
 
 - Opentrons Flex robotic liquid handler
-- Opentrons App (Version at time of upload: 8.3.1 ; api level _)
+- Opentrons App (Version at time of upload: 8.3.1 ; api level 2.20)
 - [Python API](https://docs.opentrons.com/v2/) support for custom scripts
 - Required Opentrons hardware:
   - Multi-channel pipette (Flex-compatible)
