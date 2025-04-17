@@ -5,7 +5,7 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 
 ---
 
-## 📂 Repository Contents
+### Repository Contents
 
 - `protocols/`  
   Contains Python (`.py`) scripts compatible with the Opentrons Flex platform. The two scripts correspond to two parts of sample prep:
@@ -24,7 +24,7 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 
 ---
 
-## 🛠️ Requirements
+### Requirements
 
 - Opentrons Flex robotic liquid handler
 - Opentrons App (Version at time of upload: 8.3.1 ; api level _)
@@ -35,7 +35,7 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 
 ---
 
-## 📋 How to Use
+### How to Use
 
 1. Download the `.py` protocol files.
 2. Review the SOP PDF in the `docs/` folder.
@@ -47,7 +47,7 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 
 ---
 
-## 🧪 Validation & Performance
+### Validation & Performance
 
 These protocols have been validated across multiple runs using:
 
@@ -57,13 +57,13 @@ These protocols have been validated across multiple runs using:
 
 ---
 
-## 👥 Contributing
+### Contributing
 
 We welcome collaboration and feedback. Please submit issues or pull requests if:
 - You adapt the protocol to other matrices (e.g., serum, urine)
 - You identify improvements or bugs
 - You need help customizing for different deck layouts
 
-## 🙌 Acknowledgments
+### Acknowledgments
 
 This work was developed by **The CLUES Lab at the Gangarosa Department of Environmental Health Sciences @ Emory University** for **IndiPHARM: Individual Metabolome and Exposome Assessment for Pharmaceutical Optimization** , with support from **ARPA-H**.  
