@@ -55,15 +55,6 @@ These protocols have been validated across multiple runs using:
 - HPLC/HRMS Analysis: to assess downstream precision; results showed: 
   - Low coefficient of variation (CV%) across pooled plasma samples
 
----
-
-### Contributing
-
-We welcome collaboration and feedback. Please submit issues or pull requests if:
-- You adapt the protocol to other matrices (e.g., serum, urine)
-- You identify improvements or bugs
-- You need help customizing for different deck layouts
-
 ### Acknowledgments
 
 This work was developed by **The CLUES Lab at the Gangarosa Department of Environmental Health Sciences @ Emory University** for **IndiPHARM: Individual Metabolome and Exposome Assessment for Pharmaceutical Optimization** , with support from **ARPA-H**.  
