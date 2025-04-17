@@ -9,8 +9,8 @@ This repository contains .py protocols and a corresponding SOP using the **Opent
 
 - `protocols/`  
   Contains Python (`.py`) scripts compatible with the Opentrons Flex platform. The two scripts correspond to two parts of sample prep:
-  - 1: Sample transfer and extraction solvent addition " .py"
-  - 2: Dilution and Supernatant transfer " .py"
+  - 1: Sample transfer and extraction solvent addition "1-Flex_LC_Sample_Aliquot_and_ES_96wells.py"
+  - 2: Dilution and Supernatant transfer "2-Flex_LC_Dilution_and_Supernatant_transfer_96wells.py"
 
 - `docs/`  
   Includes our complete Standard Operating Procedure (SOP) in PDF format, with:
@@ -57,4 +57,4 @@ These protocols have been validated across multiple runs using:
 
 ### Acknowledgments
 
-This work was developed by **The CLUES Lab at the Gangarosa Department of Environmental Health Sciences @ Emory University** for **IndiPHARM: Individual Metabolome and Exposome Assessment for Pharmaceutical Optimization** , with support from **ARPA-H**.  
+This work was developed by **The CLUES Lab at the Gangarosa Department of Environmental Health Sciences @ Emory University** for **IndiPHARM: Individual Metabolome and Exposome Assessment for Pharmaceutical Optimization** with support from **ARPA-H**.  
