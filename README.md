@@ -1,5 +1,5 @@
 # IndiPHARM-Task5
-# Automated Plasma Sample Preparation with Opentrons Flex
+## Automated Plasma Sample Preparation with Opentrons Flex
 
 This repository contains .py protocols and a corresponding SOP using the **Opentrons Flex robotic liquid handler**. You can use these protocols to prepare up to **80 plasma samples and 16 QA/QC samples in a 96-well plate in under one hour**. This method has been validated to be accurate, precise, and reproducible. We encourage parties interested in automating sample preparation to use our protocols!
 
