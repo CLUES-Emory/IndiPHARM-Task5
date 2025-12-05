@@ -1,4 +1,0 @@
-1. Inside main study folder, edit the QAQCs and Samples workbooks to match the correct Matrix IDs and sample IDs for your particular study. Note the name of each workbook.
-2. Ensure the correct protocols for your study are in the Opentrons folder.
-3. Inside the sequence generator app folder, open and edit lines 13-23 for your particular study.
-4. Follow instructions in the protocol for the sequence generator to output C18 and HILIC sequence lists.
