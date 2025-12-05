@@ -1,11 +1,11 @@
-IndiPHARM-Task5
-Automated sample tracking and LCMS sequence list generator for generating a sequence list of up to 288 study samples + 96 QAQC samples (384-well plate).
+## IndiPHARM-Task5
+## Automated sample tracking and LCMS sequence list generator for generating a sequence list of up to 288 study samples + 96 QAQC samples (384-well plate).
 
-Hands-free sample tracking and LCMS sequence list generation for the CLUES lab.
+The goal of this program is to provide hands-free sample tracking and LCMS sequence list generation for the indiPHARM project. 
 
-The goal of this program is to avoid copy/pasting, manual interventions, and human error when preparing LCMS sequence lists. Additionally, the integration with the OpenSpecimen online sample tracking database (in development) eliminates the need for manual sample tracking. 
+The Shiny app user interface accepts .csv files from your Micronic plate scanner. It arranges up to 4 plates into a 384-well plate run list. Check and make sure your samples and QAQCs are labeled and arranged as expected. Then enter LC run information and generate ready-to-run C18 + HILIC sequence lists in one click! \
 
-The Shiny app user interface accepts .csv files from your Micronic plate scanner. It arranges up to 4 plates into a 384-well plate run list. Check and make sure your samples and QAQCs are labeled and arranged as expected. Then enter LC run information and generate ready-to-run C18 + HILIC sequence lists in one click! 
+Required equipment: Micronic 96-tube matrix rack scanner, Opentrons Flex Automated Liquid Handler, and an LC-HRMS instrument (optimized for Orbitrap).
 
 
 Instructions:
