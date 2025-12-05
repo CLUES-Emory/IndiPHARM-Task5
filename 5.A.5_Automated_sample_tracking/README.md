@@ -43,29 +43,4 @@ Once in the app,
 
 4. Add LC Run Info (date, technician, machine) and the will generate your sequence lists ready for LCMS analysis.
 
-## Instructions on how to organize your sample inventory 
-
-Coming soon.
-
-# Project Repository Structure
-
-```
-├── App/
-│   ├── ui.R                  # User interface code for the Shiny application
-│   └── server.R              # Server logic for the Shiny application
-│
-├── Generated_Sequences/      # Folder for output sequence lists as .csv files 
-│   └── ...                   
-│
-├── Mapping/                  # Contains mapping files for plate formats
-│   └── ...                   # Files used to map 96-well plates to 384-well plate
-│
-├── PlateScans/               # Contains plate scan data
-│   └── ...                   # .CSV files generated with Micronic plate scanner
-│
-├── c18_lines.R               # R script for c18 lines processing
-├── hilic_lines.R             # R script for HILIC lines processing
-├── run_app.R                 # Script to launch the Shiny application
-├── run_parameters.R          # Configuration parameters for LCMS
-├── TestCopy_250409_CLU0120_Plate_Loading_Q...  # Excel file with study inventory data (placeholder before OpenSpecimen integration)
 ```
