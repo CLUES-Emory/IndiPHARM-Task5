@@ -9,7 +9,17 @@ The Shiny app user interface accepts .csv files from your Micronic plate scanner
 
 
 Instructions:
+SETUP
+1. Create your study folder. Inside the main study folder, add a QAQCs and Samples workbook with Matrix IDs and Sample IDs. These will be used for tracking and generating a sequence for LC analysis. Make sure to match the column names to the example.
+2. Inside the sequence generator app folder, open RUN.R and edit lines 13-23 (most important - paths to your Samples and QAQC sheets.)
+3. Scan your study racks and QAQC rack using the Microic plate scanner. Ensure the settings create an output like the example in this folder.
+3. In RStudio, open Run.R if not already open. Ensure all paths are correct. Click 'Run App'
+4. Upload your plate scans in the order they will be aliquoted in the Opentrons protocol. 
+5. Follow the remaining instructions in the protocol for the sequence generator to output C18 and HILIC sequence lists.
 
+
+
+RUNNING THE APPLICATION
 1. How to load the app: 
 Option 1: Clone the repository and run the app locally
 ```
@@ -21,7 +31,7 @@ library(shiny)
 setwd("path/to/cloned/IndiPHARM-Task5/5.A.5_Automated_sample_tracking")
 runApp()
 ```
-
+f
 Option 2: Use runGitHub() function provided by shiny package - no download required
 
 ```
