@@ -11,8 +11,8 @@ rm(list=ls()) #clear environment
 
 #### VERSION info ####################################
 
-## Study affiliations: CLU0132 (PFAS EIR)                         <- ENTER STUDY AFFILIATION
-## Creation date: 251110. Updated for PFAS EIR study              <- ENTER DATE
+## Study affiliations: NA                      <- ENTER STUDY AFFILIATION
+## Creation date: NA    <- ENTER DATE
 
 ### STUDY FILE PATHS #################################
 
@@ -60,4 +60,5 @@ load("App/Mapping/map.Rdata")  # loads 'df' (96-positions and orders) and 'map' 
 
 # run the app or press the Run App button ^^
 runApp("App")
+
 
