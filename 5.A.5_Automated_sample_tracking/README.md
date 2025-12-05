@@ -1,5 +1,5 @@
-# IndiPHARM-Task5
-## Automated sample tracking and LCMS sequence list generator - coming soon!
+IndiPHARM-Task5
+Automated sample tracking and LCMS sequence list generator for generating a sequence list of up to 288 study samples + 96 QAQC samples (384-well plate).
 
 Hands-free sample tracking and LCMS sequence list generation for the CLUES lab.
 
