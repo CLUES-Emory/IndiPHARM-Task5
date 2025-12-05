@@ -1,0 +1,44 @@
+RUN LIST:
+* = always included
+1 instrument blank*
+1 water method blank*
+1 NIST (OPTIONAL)
+1 AMAP (optional)
+3 PFAS baby cal curve (0.1, 1, 10 ng/ml)*
+PFAS QAQC*
+HRE Pool 1 and 2*
+|	If running MSMS for HRE-pool, HRE Pool 1 and 2 MSMS.
+Study samples*
+HRE Pool 1 and 2*
+only runs if first rack > 60 samples: {
+|	Study samples
+|	HRE Pool 1 and 2
+}
+PFAS QAQC - only if there are two sample racks
+1 'blank'*
+BIG CAL CURVE (0, 0.05, 0.1, 0.5, 1, 5, 10, 50, 100)*
+1 'blank'*
+only runs if there are two sample racks: {
+|	HRE Pool 1 and 2
+|	Study samples
+| 	HRE Pool 1 and 2
+|	only runs if second rack > 60 samples: {
+|	|	Study samples
+|	|	HRE Pool 1 and 2
+|	}   resume if only one chunk of samples in second half …
+|	3 PFAS baby cal curve (0.1, 1, 10 ng/ml)
+}  resume if only one sample rack
+PFAS QAQC*
+1 water method blank*
+1 real blank*
+
+
+Conditions:
+-	2 sample racks, each with >60 samples
+ 	o	FULL QAQC
+-	2 sample racks, second rack < 60 samples
+ 	o	1 less pool (5 instead of 6)
+-	1 sample rack only:
+ 	o	3 less pool (3 instead of 6)
+ 	o	1 less PFAS baby cal curve (only need 2 of each calibration point instead of 3)
+ 	o	1 less PFAS QAQC (only need 2 of 3)
