@@ -17,7 +17,7 @@ rm(list=ls()) #clear environment
 ### STUDY FILE PATHS #################################
 
 # QAQC inventory (permanent; all study)
-q_filepath <- "R:/diwalke/LC/Run_Lists/Accelerated_Methods/QAQCS-Comprehensive_Updated251117.xlsx" # update name if this changes
+q_filepath <- "<path-to-your-QAQCs.xlsx>" # update name if this changes
 # Samples inventory (study-specific; inside study folder)
 s_filepath <- file.path("..", "Samples.xlsx")                     # <- ENTER SAMPLES WORKBOOK NAME
 
@@ -60,3 +60,4 @@ load("App/Mapping/map.Rdata")  # loads 'df' (96-positions and orders) and 'map' 
 
 # run the app or press the Run App button ^^
 runApp("App")
+
